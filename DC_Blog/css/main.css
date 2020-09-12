@@ -1,0 +1,142 @@
+/* MAIN ELEMENTS  */
+
+body {
+    background-color: #f4f4f4;
+}
+
+h1,
+h2,
+h3,
+h4,
+a {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 12px;
+}
+
+div>button {
+    background-color: #4a98c4;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 2px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+span {
+    margin-bottom: 20px;
+}
+
+li {
+    display: inline;
+    text-decoration: none;
+    padding: 0 5px;
+    color: white;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:active,
+li a:visited {
+    color: white;
+}
+
+img {
+    display: block;
+    margin-top: 13px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+
+/* MAIN BODY */
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 73px auto auto;
+}
+
+.nav {
+    text-align: right;
+}
+
+.hero,
+.section-copy,
+.footer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hero {
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.hero-copy {
+    padding: 15px 0;
+    /* margin: 10px 0; */
+}
+
+.hero-copy span {
+    text-Transform: uppercase;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 0.2;
+    font-size: 12px;
+}
+
+
+/* FOOTER STUFF */
+
+.bread-crumbs ul {
+    padding-inline-start: 0px;
+}
+
+.bread-crumbs ul li {
+    padding: 0 5px;
+}
+
+.bread-crumbs ul li a {
+    color: #777;
+    text-align: left;
+}
+
+.footer {
+    border-top: 1px solid grey;
+    margin-top: 40px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.copyright p {
+    color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 60px;
+}
