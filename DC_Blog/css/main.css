@@ -43,7 +43,7 @@ li {
     display: inline;
     text-decoration: none;
     padding: 0 5px;
-    color: white;
+    color: black;
 }
 
 li a {
@@ -52,7 +52,11 @@ li a {
 
 li a:active,
 li a:visited {
-    color: white;
+    color: grey;
+}
+
+li a:hover {
+    color: #000;
 }
 
 img {
@@ -111,16 +115,21 @@ p {
 
 /* FOOTER STUFF */
 
-.bread-crumbs ul {
+.footer-links ul {
     padding-inline-start: 0px;
 }
 
-.bread-crumbs ul li {
+.footer-links ul li {
     padding: 0 5px;
 }
 
-.bread-crumbs ul li a {
+.footer-links ul li a {
     color: #777;
+    text-align: left;
+}
+
+.footer-links ul li a:hover {
+    color: #000;
     text-align: left;
 }
 

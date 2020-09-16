@@ -2,6 +2,29 @@ body {
     margin: 0 auto;
 }
 
+.header,
+.footer {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header li,
+.footer li {
+    display: inline;
+    list-style-type: none;
+}
+
+.header li a,
+.footer li a {
+    color: white;
+    text-decoration: none;
+}
+
+.header li a:hover,
+.footer li a:hover {
+    color: #f07931;
+}
+
 .header {
     margin: 0 auto;
     background-image: url('../img/atl.png');
@@ -13,31 +36,16 @@ body {
     color: white;
 }
 
-.header li {
-    list-style-type: none;
-}
-
-.header li a {
-    text-decoration: none;
-    color: white;
-}
-
 .body {
-    margin-top: 480px;
+    margin: 480px 20px 0 20px;
     color: black;
-}
-
-.body li {
-    list-style-type: none;
-}
-
-.body li a {
-    text-decoration: none;
-    color: black;
+    padding: 10px 20px;
 }
 
 .hero {
     margin: 0 auto;
+    width: 800px;
+    clear: both;
 }
 
 .row {
@@ -50,4 +58,23 @@ body {
 .title {
     margin: 10px auto;
     text-align: center;
+}
+
+.footer {
+    background-color: #515151;
+    color: white;
+    width: 100%;
+    padding: 20px 20px;
+    margin: 0 auto;
+}
+
+.navigation {
+    position: fixed;
+    top: 0;
+    right: 2%;
+    width: 800px;
+}
+
+.hero-text {
+    margin: 140px 0;
 }

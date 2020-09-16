@@ -71,6 +71,8 @@ HTML ELEMENTS
     
     input {
         width: 80%;
+        background-color: #555;
+        border: 1px solid lightgrey;
     }
     /* 
 SIDE BAR NAVIGATION 
